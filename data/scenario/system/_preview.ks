@@ -1,5 +1,7 @@
+[preload  storage="./data/fgimage/chara/1/josei_01_e.png"  ]
+[preload  storage="./data/bgimage/title.jpg"  ]
 [preload  storage="./data/bgimage/bg_base.png"  ]
 [preload  storage="./data/bgimage/room_boy15_night_light_by_norfolkdistrict.jpg"  ]
-[preload  storage="./data/bgimage/tera.jpg"  ]
+[preload  storage="./data/bgimage/洲本城.jpg"  ]
 [preload  storage="./data/fgimage/default/1990-2_(1).png"  ]
 [return] 

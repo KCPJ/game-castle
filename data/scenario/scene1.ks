@@ -418,6 +418,8 @@
 [chara_hide  name="ミカ"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_image_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="title.jpg"  ]
+*fin
+
 [tb_ptext_show  x="544"  y="222"  size="50"  color="0xfcfcff"  time="1000"  anim="false"  face="fantasy"  text="fin"  edge="0x6a7491"  shadow="undefined"  ]
 [tb_ptext_show  x="276"  y="272"  size="50"  color="0xfcfcff"  time="1000"  anim="false"  face="fantasy"  text="-忘れたくない淡い思い出-"  edge="0x6a7491"  shadow="undefined"  ]
 [l  ]
@@ -435,6 +437,17 @@
 [jump  storage="scene1.ks"  target="*5-common"  ]
 *5-no
 
+[tb_start_text mode=1 ]
+#
+そろそろ・・[p]
+帰ろっか・・[p]
+[_tb_end_text]
+
+[chara_hide  name="ミカ"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[mask  time="1000"  effect="fadeIn"  color="0x000000"  ]
+[mask_off  time="1000"  effect="fadeOut"  ]
+[jump  storage="scene1.ks"  target="*fin"  ]
 [tb_hide_message_window  ]
 [chara_hide  name="ミカ"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_image_hide  time="1000"  ]
@@ -469,11 +482,11 @@
 *大枠-2周目
 
 [tb_image_hide  time="1000"  ]
-[bg  time="1000"  method="crossfade"  storage="tera.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="洲本城.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-本福寺水御堂[p]
+洲本城[p]
 自分にとっての[p]
 忘れたくない淡い想い出[p]
 今となっては[p]
